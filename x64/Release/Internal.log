@@ -1,0 +1,7 @@
+﻿  DllMain.cpp
+  pattern.cpp
+C:\Users\povet\Desktop\Rust_Internal\Internal\Internal\il2cpp-main\Pattern\pattern.cpp(76,16): warning C4244: return: преобразование "uintptr_t" в "uint32_t", возможна потеря данных
+C:\Users\povet\Desktop\Rust_Internal\Internal\Internal\il2cpp-main\Pattern\pattern.cpp(86,16): warning C4244: return: преобразование "uintptr_t" в "uint32_t", возможна потеря данных
+  Создание кода...
+C:\Users\povet\Desktop\Rust_Internal\Internal\Internal\il2cpp-main\Memory\il2cpp.hpp(282): warning C4715: mem::hook_virtual_function: значение возвращается не при всех путях выполнения
+  Internal.vcxproj -> C:\Users\povet\Desktop\Rust_Internal\Internal\Internal\x64\Release\Internal.dll

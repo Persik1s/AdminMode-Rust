@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{393b147a-f65c-412b-bd84-a9ef3fc7b719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="il2cpp">
+      <UniqueIdentifier>{2124c564-596e-494b-9c05-f9faa1e915df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="il2cpp\Pattern">
+      <UniqueIdentifier>{de7dd25e-7a66-4f1b-b320-3c112a739940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="il2cpp\il">
+      <UniqueIdentifier>{58b47bdf-9c42-4136-80c6-ad9e75a7d01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{689cb34d-32a1-4e2f-9912-9d97570ffc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{fd2a115d-4d09-4cdf-af40-1141fa17406d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Features">
+      <UniqueIdentifier>{944022dd-3418-4742-88a9-fe0c6d0402cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="il2cpp-main\Pattern\pattern.cpp">
+      <Filter>il2cpp\Pattern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp-main\xorstr.hpp">
+      <Filter>il2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp-main\Pattern\pattern.hpp">
+      <Filter>il2cpp\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp-main\Memory\il2cpp.hpp">
+      <Filter>il2cpp\il</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp-main\il2cpp_memary.h">
+      <Filter>il2cpp\il</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp-main\Memory\lazy_importer.hpp">
+      <Filter>il2cpp\il</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp-main\Memory\memory.hpp">
+      <Filter>il2cpp\il</Filter>
+    </ClInclude>
+    <ClInclude Include="MainClasses.hpp">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="RustFunc.hpp">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.hpp">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.hpp">
+      <Filter>Classes\Features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
